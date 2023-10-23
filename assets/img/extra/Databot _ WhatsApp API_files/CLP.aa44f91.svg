@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29.096" height="17.388" viewBox="0 0 29.096 17.388">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #cdcdcd;
+      }
+
+      .cls-2 {
+        fill: #3b4ddb;
+      }
+
+      .cls-3 {
+        fill: #ef3737;
+      }
+
+      .cls-4 {
+        stroke: rgba(0,0,0,0);
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="chile" transform="translate(-379.375 -176.5)">
+    <rect id="Rectángulo_157" data-name="Rectángulo 157" class="cls-1" width="28.096" height="16.388" rx="2" transform="translate(379.875 177)"/>
+    <path id="Rectángulo_158" data-name="Rectángulo 158" class="cls-2" d="M2,0H8.194a0,0,0,0,1,0,0V8.194a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(379.875 177)"/>
+    <path id="Rectángulo_159" data-name="Rectángulo 159" class="cls-3" d="M0,0H28.1a0,0,0,0,1,0,0V6.195a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V0A0,0,0,0,1,0,0Z" transform="translate(379.875 185.194)"/>
+    <path id="Unión_1" data-name="Unión 1" class="cls-4" d="M3.152,3.706l-1.2-.874-1.2.874L1.2,2.29,0,1.416H1.49L1.951,0l.458,1.416H3.9l-1.2.875Z" transform="translate(382.025 179.047)"/>
+  </g>
+</svg>
