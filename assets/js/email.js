@@ -3,8 +3,8 @@
 })();
 
 document.getElementById("contact-form").addEventListener("submit", function(event) {
-    event.preventDefault();
-
+    event.preventDefault();        
+    // Change the button's text and color
     // Get form data
     const formData = new FormData(event.target);
     const name = formData.get("contact-name");
@@ -20,9 +20,12 @@ document.getElementById("contact-form").addEventListener("submit", function(even
     };
 
     // Send email using EmailJS
-    emailjs.send("service_b8qzbxp", "template_e07jzrn", templateParams)
+    emailjs.send("service_vdo9107", "template_e07jzrn", templateParams)
         .then(function(response) {
-            console.log("Email sent:", response, message);
+            var enviarButton = document.getElementById("enviar-button");
+            enviarButton.textContent = "Enviado";
+            enviarButton.style.backgroundColor = "#25d366";
+            enviarButton.style.color = "white";
             // You can display a success message or redirect the user here
         }, function(error) {
             console.error("Email error:", error);
