@@ -2052,6 +2052,9 @@ p {
 }
 
 .footer .copyright-area {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
   padding: 30px 0;
 }
 
