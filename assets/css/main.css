@@ -2068,3 +2068,19 @@ p {
 #hookButton {
   background: #25d366;
 }
+
+#Meta {
+  height: 3rem; /* Adjust the value based on your design */
+  width: auto;
+  margin-left: 30px;
+}
+
+#Meta:hover {
+  filter: brightness(1.1);
+  transition: all 0.3s ease; /* Adjust the duration and timing function */
+}
+
+#Meta.dark {
+  filter: invert(1) grayscale(1) brightness(0);
+}
+
