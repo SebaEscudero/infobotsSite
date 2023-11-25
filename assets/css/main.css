@@ -2211,3 +2211,10 @@ p {
 .my-float{
 	margin-top:16px;
 }
+
+@media (max-width: 767px) {
+  .footer .footer-links .logo img{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
