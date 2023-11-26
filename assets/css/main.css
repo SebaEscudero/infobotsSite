@@ -1985,10 +1985,12 @@ p {
   z-index: -1;
 }
 
-.footer .footer-links .logo {
-  margin-bottom: 30px;
+@media (max-width: 767px) {
+  .footer .footer-links .logo img{
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
-
 .footer .footer-links .footer-social-links {
   margin-bottom: 30px;
 }
@@ -2212,9 +2214,81 @@ p {
 	margin-top:16px;
 }
 
-@media (max-width: 767px) {
-  .footer .footer-links .logo img{
-    width: 100%;
-    margin-bottom: 30px;
+.blog-author {
+  color: black;
+}
+
+.blog-author span {
+  margin-left: 10px;
+}
+
+
+.blog-img img {
+  width: 95%;
+}
+
+.estructura-blog {
+  line-height: 1.8; /* Increase the line-height value for more space between lines */
+  text-align: left; /* Add this line to left-justify the text */
+}
+
+.estructura-blog h1 {
+  font-size: 70px;
+  color: #333;
+  text-align: center;
+  margin: 30px;
+}
+
+@media (max-width: 768px) {
+  .estructura-blog h1 {
+    font-size: 50px;
   }
+}
+
+@media (max-width: 480px) {
+  .estructura-blog h1 {
+    font-size: 30px;
+  }
+}
+
+.estructura-blog h2, h5{
+  font-size: 24px;
+  color: #555;
+  text-align: left;
+  line-height: 4;
+  text-decoration: underline;
+}
+
+.estructura-blog p {
+  font-size: 25px;
+  color: black;
+  text-align: left; /* Add this line to left-justify the text */
+  line-height: 1.8
+}
+
+.estructura-blog li {
+  justify-content: left;
+  font-size: 25px;
+  color: black;
+  text-align: left; /* Add this line to left-justify the text */
+  list-style-type: disc; /* Add this line to display bullet points */
+  margin: 30px;
+}
+
+.estructura-blog a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.estructura-blog a:hover {
+  text-decoration: underline;
+}
+
+.estructura-blog img {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
