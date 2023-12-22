@@ -2259,7 +2259,7 @@ p {
   text-decoration: underline;
 }
 
-.estructura-blog p {
+.estructura-blog p, a {
   font-size: 25px;
   color: black;
   text-align: left; /* Add this line to left-justify the text */
@@ -2291,4 +2291,13 @@ p {
   margin-right: auto;
   margin-bottom: 40px;
   margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    #blog h4 > a{
+    text-align: center;
+  }
+  .blog-section{
+    text-align: center;
+  }
 }

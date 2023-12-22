@@ -1,0 +1,285 @@
+<!doctype html>
+<html class="no-js" lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Integración de la API de WhatsApp en Chatbots: Una Guía Detallada - Infobots</title> 
+	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="keywords" content="IA, AI, Chatbot, Agentes, GPT, OPENAI, Whatsapp, Chatbot">
+        <meta name="description" content="Descubre cómo crear WhatsApp Chatbots con Infobots, líder en soluciones tecnológicas en Chile. Mejora la atención al cliente, automatiza procesos y genera leads. Haz el tuyo y mantén a tus clientes felices hoy!">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-1.min.css">
+        <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo/favicon-16x16.png">
+        <link rel="manifest" href="assets/img/logo/site.webmanifest">
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    </head>
+    <body>
+        <a href="https://api.whatsapp.com/send?phone=56979924739&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20como%20obtener%20un%20chatbot."
+            class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
+            <div class="preloader">
+                <div class="loader">
+                    <div class="ytp-spinner">
+                        <div class="ytp-spinner-container">
+                            <div class="ytp-spinner-rotator">
+                                <div class="ytp-spinner-left">
+                                    <div class="ytp-spinner-circle"></div>
+                                </div>
+                                <div class="ytp-spinner-right">
+                                    <div class="ytp-spinner-circle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- preloader end -->
+        <header class="header">
+            <div class="navbar-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <nav class="navbar navbar-expand-lg">
+                                <a class="navbar-brand" href="https://infobots.cl/">
+                                    <img src="assets/img/logo/logo2.png" alt="Logo">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="toggler-icon"></span>
+                                    <span class="toggler-icon"></span>
+                                    <span class="toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                    <ul id="nav" class="navbar-nav ml-auto">
+                                        <li class="nav-item">
+                                            <a class="page-scroll active" href="#home">Inicio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="https://infobots.cl/">Beneficios</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="https://infobots.cl/">Proceso</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="https://infobots.cl/">Preguntas Frecuentes</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="#subscribe">Contacto</a>
+                                        </li>  
+                                    </ul>
+                                </div> <!-- navbar collapse -->
+                            </nav> <!-- navbar -->
+                        </div>
+                    </div> <!-- row -->
+                </div> <!-- container -->
+            </div> <!-- navbar area -->
+
+        </header>
+        <!-- ========================= header end ========================= -->
+
+        <!-- ========================= slider-section start ========================= -->
+        <!-- ========================= header start ========================= -->
+
+        <!-- ========================= faq-section end ========================= -->
+
+        <!-- ========================= blog-section start ========================= -->
+        <!-- <section id="blog" class="blog-section pt-150">
+
+        </section> -->
+        <section id="blog" class="blog-section pt-150">
+            <div class="container">
+                <div class="row">
+                    <div class="estructura-blog">
+                        <div class="col-xl-10 col-lg-6 col-md-8 mx-auto">
+                            <div data-wow-delay=".4s" class="mb-15 wow fadeInUp" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                <h1>Integración de la API de WhatsApp en Chatbots: Una Guía Detallada</h1>
+                                <img src="assets/img/blog/api-whatsapp.png">
+                                <h5>
+                                    Introducción
+                                </h5>
+                                <p class="wow fadeInUp" data-wow-delay=".4s"
+                                    style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                    En el cambiante panorama tecnológico, la integración de chatbots con plataformas de mensajería populares se ha convertido en un factor determinante. Una de las plataformas más utilizadas es WhatsApp, y aprovechar su API puede mejorar la participación del usuario y simplificar la comunicación. En este artículo, recorreremos el proceso de integrar la API de WhatsApp en tu chatbot.
+                                <h5>
+                                    Tabla de Contenidos
+                                </h5>
+                                <p>
+                                    <ul>
+                                        <li>&#x1F4AC; Comprendiendo la API de WhatsApp</li>
+                                        <li>&#x1F4D1; Requisitos Previos</li>
+                                        <li>&#x1F4E6; Configuración de una Cuenta Empresarial en WhatsApp</li>
+                                        <li>&#x1F511; Generación de Credenciales de API</li>
+                                        <li>&#x1F52B; Pruebas y Solución de Problemas</li>
+                                        <li>&#x2705; Mejores Prácticas</li>
+                                    </ul>
+                                </p>
+                                </form>
+                                <h5>
+                                    Comprendiendo la API de WhatsApp
+                                </h5>
+                                <p>
+                                    La API de WhatsApp permite a los desarrolladores integrar la plataforma de mensajería en sus aplicaciones, permitiendo que las empresas se comuniquen con los usuarios de manera fluida. Esta integración es especialmente útil para chatbots, proporcionando un canal directo e interactivo para las interacciones de los usuarios.                                </p>
+                                <h5>
+                                    Requisitos Previos
+                                </h5>
+                                <p>
+                                    Antes de sumergirte en el proceso de integración, asegúrate de tener lo siguiente:
+                                    <ul>
+                                        <li>Un sistema de chatbot funcional.</li>
+                                        <li>Una cuenta de WhatsApp Business.</li>
+                                        <li>Conocimientos básicos de lenguajes de programación como Python o Node.js.</li>
+                                    </ul>
+                                </p>
+                                <h1>
+                                    Configuración de una Cuenta Empresarial en WhatsApp
+                                </h1>
+                                <p>
+                                    Para comenzar, crea una cuenta empresarial en WhatsApp. Sigue estos pasos:
+                                <ul>
+                                    <li>Visita el Portal de la API de WhatsApp Business: <a href="https://developers.facebook.com/">Portal de la API de WhatsApp Business.</a></li>
+                                    <li>Registro: Crea una cuenta y sigue las instrucciones en pantalla para configurar el perfil de tu empresa.</li>
+                                    <li>Verificación: Verifica tu cuenta empresarial según las pautas proporcionadas.</li>
+                                </ul>
+                                <h5>
+                                    Generación de Credenciales de API
+                                </h5>
+                                </p>
+                                <p>
+                                    Después de configurar tu cuenta empresarial, genera las credenciales de API necesarias:
+                                    <ul>
+                                        <li><strong>Accede a la Configuración de la API:</strong> Inicia sesión en el <a href="https://developers.facebook.com/apps">Tablero de la API de WhatsApp Business.</a></li>
+                                        <li><strong>Crea una Nueva Aplicación:</strong> Sigue las indicaciones para crear una nueva aplicación y obtener las credenciales de la API.</li>
+                                        <li><strong>Envía mensajes con la API:</strong> Prueba la API de Whatsapp con el template que indica facebook.</li>
+                                    </ul>
+                                </p>
+                                <img src="assets/img/blog/api-whatsapp-codigo.png">
+                                <h5>
+                                    Conclusión
+                                </h5>
+                                <p>
+                                    Integrar la API de WhatsApp en tu chatbot abre nuevas posibilidades para la participación del usuario. Siguiendo esta guía paso a paso, puedes incorporar WhatsApp a tu chatbot de manera fluida, mejorando la experiencia general del usuario.
+                                </p>
+                                <span></span>
+                                <p>
+                                        Si estás interesado en implementar esta tecnología para tu negocio, visita <a href="https://infobots.cl/">Infobots</a>.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= blog-section end ========================= -->
+
+        <!-- ========================= video-section start ========================= -->
+        <!-- <section class="video-section pt-120 pb-50">
+        </section> -->
+        <!-- ========================= video-section end ========================= -->
+
+        <!-- ========================= subscribe-section start ========================= -->
+        <section id="subscribe" class="subscribe-section gray-bg pt-100">
+            <div class="container">
+                <div class="subscribe-wrapper pt-70 pb-70">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-8 col-md-10 mx-auto">
+                            <div class="section-title text-center mb-30">
+                                <span class="text-white wow fadeInDown" data-wow-delay=".2s">Contactanos</span>
+                                <h2 class="text-white mb-15 wow fadeInLeft" data-wow-delay=".4s">¡Trabaja con Nosotros!</h2>
+                                <p class="text-white wow fadeInLeUp" data-wow-delay=".6s">¿Quieres trabajar con nosotros?, ¿tienes una consulta o quieres dejar un comentario? ¡Sientete libre de contactarnos!</p>
+                            </div>
+                        </div>
+                        <div class=" col-lg-10 mx-auto">
+                            <form id="contact-form" class="subscribe-form wow fadeInUp" data-wow-delay=".8s">
+                                <input type="text" id ="contact-name" placeholder="Nombre" required /><br />
+                                <input type="email" id ="contact-email" placeholder="Email" required /><br />
+                                <textarea type="text" id ="contact-message" placeholder="Mensaje" required></textarea><br />
+                                <button id = 'enviar-button' class = "theme-btn">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= subscribe-section end ========================= -->
+
+        <!-- ========================= footer start ========================= -->
+        <footer class="footer pt-150 gray-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="footer-links text-center">
+                            <a href="https://infobots.cl/" class="logo"><img src="assets/img/logo/logo2.png" alt=""> </a>
+                            <div class="footer-social-links">
+                                <!-- <ul>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="lni lni-facebook-filled"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="lni lni-twitter-filled"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="lni lni-linkedin-original"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="lni lni-instagram-original"></i>
+                                        </a>
+                                    </li>
+                                </ul> -->
+                            </div>
+                            <nav class="footer-menu">
+                                <ul>
+                                    <li><a href="#home">Inicio</a></li>
+                                    <li><a href="https://infobots.cl/">Beneficios</a></li>
+                                    <li><a href="https://infobots.cl/">Proceso</a></li>
+                                    <li><a href="https://infobots.cl/">Preguntas Frecuentes</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-area text-center">
+                    <p class="mb-0">Designed and Developed by <a href="https://www.linkedin.com/in/sebastian-escudero-975898240/" rel="nofollow" target="_blank">Sebastian Escudero</a>, Chicureo. Santiago, Chile</p>
+                    <a href="https://www.facebook.com/business/marketing-partners" target="_blank">
+                        <img id="Meta" alt="Meta Business Partner" loading="lazy" width="1193" height="507" decoding="async" data-nimg="1" style="color:transparent" src="assets/img/extra/facebook-whatsapp-chatbot-logo.webp">
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <!-- ========================= footer end ========================= -->
+
+
+        <!-- ========================= scroll-top ========================= -->
+        <!-- <a href="#" class="scroll-top">
+            <i class="lni lni-chevron-up"></i>
+        </a> -->
+
+		<!-- ========================= JS here ========================= -->
+		<script src="assets/js/bootstrap.bundle-5.0.0.alpha-1-min.js"></script>
+		<script src="assets/js/count-up.min.js"></script>
+		<script src="assets/js/wow.min.js"></script>
+		<script src="assets/js/main.js"></script>
+        <script src="assets/js/email.js"></script>
+        <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+        <script>
+        </script>
+    </body>
+</html>
